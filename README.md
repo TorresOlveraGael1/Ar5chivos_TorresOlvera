@@ -154,11 +154,11 @@ ruta_archivo = "demofile2.txt"
 
 f = open(ruta_archivo, "w")
 
-# Escribir nuevo contenido en el archivo
+#Escribir nuevo contenido en el archivo
 
 f.write("Woops! I have deleted the content!\n")
 
-# Leer el archivo después de sobrescribir el contenido
+#Leer el archivo después de sobrescribir el contenido
 
 f = open(ruta_archivo, "r")
 
